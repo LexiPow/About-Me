@@ -1,16 +1,125 @@
-<!doctype html>
+<!DOCTYPE html>
 
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>About - Andre Buck</title>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>About - Andre Buck</title>
+    <link href="./styles/main.css" rel="stylesheet" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="./scripts/main.js"></script>
+  </head>
 
-  <link  href="./styles/main.css" rel="stylesheet" type="text/css">
-</head>
+  <body>
+    <div class="container">
+      <div class="side-nav">
+        <div class="details">
+          <img src="./images/profilepic.jpg" class="avatar" />
+          <span class="name">Andr&egrave Buck</span>
+        </div>
 
-<body>
- 
-  
-</body>
+        <a id="cv" class="menu-item"
+          ><i id="cv-icon" class="fa fa-file-o" aria-hidden="true"></i
+          ><span class="icon-text">Curriculum Vitae</span></a
+        >
+        <a id="documents" class="menu-item"
+          ><i class="fa fa-files-o" aria-hidden="true"></i
+          ><span class="icon-text">Documents</span></a
+        >
+        <a id="contact" class="menu-item"
+          ><i class="fa fa-fw fa-envelope"></i
+          ><span class="icon-text">Contact</span></a
+        >
+      </div>
+      <div class="content">
+        <div class="page-heading">
+          <span class="page-title">Curriculum Vitae</span>
+        </div>
+        <div class="main-page-container">
+          <div id="cv-content" class="page-content">
+            <table class="styled-table">
+              <caption class="caption-style">
+                Personal Information
+              </caption>
+              <tbody>
+                <tr>
+                  <td>Full Name</td>
+                  <td>Andr&egrave Buck</td>
+                </tr>
+                <tr>
+                  <td>Preferred Name</td>
+                  <td>Alex</td>
+                </tr>
+                <tr>
+                  <td>Date of Birth</td>
+                  <td>9 August 1991</td>
+                </tr>
+                <tr>
+                  <td>Place of Birth</td>
+                  <td>Klerksdorp</td>
+                </tr>
+                <tr>
+                  <td>Cell Number</td>
+                  <td>066 228 6417</td>
+                </tr>
+                <tr>
+                  <td>E-mail Address</td>
+                  <td>andre.buck.ba@gmail.com</td>
+                </tr>
+                <tr>
+                  <td>Address</td>
+                  <td>
+                    32 Macanudo, 4 Strauss Avenue, Roodepoort, Johannesburg,
+                    2194
+                  </td>
+                </tr>
+                <tr>
+                  <td>Languages</td>
+                  <td>Afrikaans, English</td>
+                </tr>
+              </tbody>
+            </table>
+            <br />
+            <table class="styled-table">
+              <caption class="caption-style">
+                Academic Qualifications
+              </caption>
+              <thead>
+                <tr>
+                  <th>Details</th>
+                  <th>Subjects/Qaulifications</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                    Grade 12 graduation completed in December 2009, High School
+                    Schoonspruit, Klerksdorp
+                  </td>
+                  <td>
+                    Afrikaans, English, Mathematics, Life Orientation,
+                    Information Technology, Science, Accounting
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    Damelin, 56A Williams Street, Wilkoppies, Klerksdorp, 2572
+                  </td>
+                  <td>
+                    Sort Program in IT Principles (July 2010) and in
+                    NetworkPrinciples (December 2010)
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div id="docs-content" hidden class="page-content"></div>
+          <div id="contact-content" hidden class="page-content"></div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
